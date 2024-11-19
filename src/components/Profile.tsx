@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import {
@@ -51,7 +50,7 @@ export const Profile = () => {
                     </div>
                     <p className="mt-2 text-start text-sm text-muted-foreground">
                         I am a solopreneur developer with a passion for building products that solve real-world problems.
-                        I'm also and ECE engineer 2027 passout from CUSAT
+                        Im also and ECE engineer 2027 passout from CUSAT
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}
