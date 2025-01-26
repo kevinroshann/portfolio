@@ -8,12 +8,12 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Arduino intern", // TODO: Replace with actual role
+        role: "Electronics intern", // TODO: Replace with actual role
         company: "CSEED", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
         duration: "2024",
         description:
-            "Learnt about arduino sensors proteus etc",
+            "An Electronics Based Internship",
         link: "https://cseed.org/",
         images: [],
     },

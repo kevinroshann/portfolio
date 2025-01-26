@@ -37,7 +37,7 @@ export const Profile = () => {
                             width={150}
                             height={150}
                             quality={100}
-                            src="/avatar.svg"
+                            src="avatar.svg"
                             alt="Profile Picture"
                             className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                         />
@@ -52,17 +52,17 @@ export const Profile = () => {
                         I am a solopreneur developer with a passion for building products that solve real-world problems.
                         Im also and ECE engineer 2027 passout from CUSAT
                     </p>
-                    <Button className="mt-4 w-full" asChild>
+                    {/* <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}
                         {/* or link to schedule a meeting using Calendly or Cal*/}
-                        <Link
+                        {/* <Link
                             target="_blank"
                             href="/resume.pdf"
                             className="font-semibold"
                         >
                             CONTACT ME
                         </Link>
-                    </Button>
+                    </Button> */}
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
                         {socials.map((s, i) => {
                             const parts = s.link.split('/')

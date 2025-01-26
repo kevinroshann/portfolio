@@ -3,10 +3,10 @@ import { Metadata } from 'next'
 // TODO: Update metadata
 
 export function constructMetadata({
-  title = 'Chris Lonzo', // TODO: Add a custom title
+  title = 'Kevin Roshan N', // TODO: Add a custom title
   description = "I am a software engineer with a passion for building scalable and efficient web applications.", // TODO: Add a custom description
-  image = '/thumbnail.png', // TODO: Add a custom image
-  icons = '/avatar.svg', // TODO: Add a custom icon
+  image = '/img.jpeg', // TODO: Add a custom image
+  icons = '/img.jpeg', // TODO: Add a custom icon
   noIndex = false
 }: {
   title?: string
@@ -23,20 +23,20 @@ export function constructMetadata({
       description,
       images: [image]
     },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [image],
-      creator: '@chrislonzo'
-    },
+    // twitter: {
+    //   card: 'summary_large_image',
+    //   title,
+    //   description,
+    //   images: [image],
+    //   creator: '@chrislonzo'
+    // },
     icons,
-    metadataBase: new URL('https://www.chrislonzo.com'),
-    ...(noIndex && {
-      robots: {
-        index: false,
-        follow: false
-      }
-    })
+    // metadataBase: new URL('https://www.chrislonzo.com'),
+    // ...(noIndex && {
+    //   robots: {
+    //     index: false,
+    //     follow: false
+    //   }
+    // })
   }
 }

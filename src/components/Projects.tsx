@@ -10,14 +10,14 @@ export const projects = [
         title: "Presentation Creator",
         description: "An Automatic Presentation creator using Gemini AI",
         tech: "Python, gemini",
+        link: "https://github.com/kevinroshann/presentation-creator",
+    },
+    {
+        title: "Task Management App",
+        description: "A productivity app built",
+        tech: "MERN",
         link: "#",
     },
-    // {
-    //     title: "Task Management App",
-    //     description: "A productivity app built with React Native and Firebase",
-    //     tech: "React Native",
-    //     link: "#",
-    // },
     // {
     //     title: "Data Visualization Dashboard",
     //     description: "An interactive dashboard using D3.js and Vue.js",

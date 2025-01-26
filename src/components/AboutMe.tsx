@@ -14,8 +14,8 @@ export const AboutMe = ( ) => {
             <CardContent>
                 <p className="text-muted-foreground">
                     {/* Write 1-2 sentences about yourself */}
-                    I am a software engineer with a passion for building scalable and efficient web applications.
-                    Im also an Machine Learning enthusiastic. 
+                    I am a Full Stack developer capable of building Web Applications.        
+                    I am also a Machine Learning enthusiastic
                 </p>
             </CardContent>
         </Card>
