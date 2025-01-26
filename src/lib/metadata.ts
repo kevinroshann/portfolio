@@ -7,7 +7,7 @@ export function constructMetadata({
   description = "I am a software engineer with a passion for building scalable and efficient web applications.", // TODO: Add a custom description
   image = '/img.jpeg', // TODO: Add a custom image
   icons = '/img.jpeg', // TODO: Add a custom icon
-  noIndex = false
+  // noIndex = false
 }: {
   title?: string
   description?: string
